@@ -1,0 +1,55 @@
+{
+  "vehicleData": {
+    "make": "Honda",
+    "model": "Motorcycle",
+    "cylinderCapacity": "500",
+    "enginePerformance": "35",
+    "dateOfManufacture": "06/15/2021",
+    "numberOfSeats": "2",
+    "listPrice": "8000",
+    "annualMileage": "5000"
+  },
+  "expectedMakeOptions": [
+    "Audi",
+    "BMW",
+    "Ford",
+    "Honda",
+    "Mazda",
+    "Mercedes Benz",
+    "Nissan",
+    "Opel",
+    "Porsche",
+    "Renault",
+    "Skoda",
+    "Suzuki",
+    "Toyota",
+    "Volkswagen",
+    "Volvo"
+  ],
+  "insurantData": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "birthDate": "03/20/1988",
+    "streetAddress": "456 Rider Lane",
+    "country": "United States",
+    "zipCode": "54321",
+    "city": "Los Angeles",
+    "occupation": "Employee",
+    "hobby": "Speeding",
+    "website": "https://example.com"
+  },
+  "productData": {
+    "startDate": "12/20/2026",
+    "insuranceSum": "10.000.000,00",
+    "meritRating": "Bonus 3",
+    "damageInsurance": "Full Coverage",
+    "courtesyCar": "Yes"
+  },
+  "quoteContactData": {
+    "email": "jane.smith.20260731@example.com",
+    "phone": "98765432",
+    "username": "jsmith20260731",
+    "password": "Pass1234",
+    "comments": "Motorcycle quote happy-path test"
+  }
+}

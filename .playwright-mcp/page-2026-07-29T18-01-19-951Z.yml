@@ -1,0 +1,156 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - link [ref=f1e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=f1e7]
+        - generic [ref=f1e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=f1e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=f1e11]:
+        - link " Visit Support!" [ref=f1e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=f1e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=f1e14]
+        - button "" [ref=f1e15] [cursor=pointer]
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - text: 
+        - list [ref=f1e183]:
+          - listitem [ref=f1e184]:
+            - link "Automobile" [ref=f1e185] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e186]:
+            - link "Truck" [ref=f1e187] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e188]:
+            - link "Motorcycle" [ref=f1e189] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e190]:
+            - link "Camper" [ref=f1e191] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=f1e23] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=f1e24]:
+    - generic [ref=f1e26]:
+      - link "Home" [ref=f1e27] [cursor=pointer]:
+        - /url: index.php
+      - text: Automobile Insurance
+  - generic [ref=f1e28]:
+    - generic [ref=f1e31]:
+      - navigation [ref=f1e32]:
+        - list:
+          - listitem [ref=f1e34]:
+            - link "Enter Vehicle Data 0" [ref=f1e108] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=f1e36]: "0"
+          - listitem [ref=f1e37]:
+            - link "Enter Insurant Data 0" [ref=f1e194] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=f1e39]: "0"
+          - listitem [ref=f1e40]:
+            - link "Enter Product Data 6" [ref=f1e41]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=f1e42]: "6"
+          - listitem [ref=f1e43]:
+            - link "Select Price Option 1" [ref=f1e44] [cursor=pointer]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=f1e45]: "1"
+          - listitem [ref=f1e46]:
+            - link "Send Quote 4" [ref=f1e47] [cursor=pointer]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=f1e48]: "4"
+      - generic [ref=f1e50]:
+        - text:  
+        - generic [ref=f1e196]:
+          - generic [ref=f1e197]:
+            - generic [ref=f1e198]: Start Date
+            - textbox "MM/DD/YYYY" [ref=f1e199]
+            - button "" [ref=f1e200] [cursor=pointer]
+          - generic [ref=f1e203]:
+            - generic [ref=f1e204]: Insurance Sum [$]
+            - combobox [ref=f1e205] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "3.000.000,00"
+              - option "5.000.000,00"
+              - option "7.000.000,00"
+              - option "10.000.000,00"
+              - option "15.000.000,00"
+              - option "20.000.000,00"
+              - option "25.000.000,00"
+              - option "30.000.000,00"
+              - option "35.000.000,00"
+          - generic [ref=f1e207]:
+            - generic [ref=f1e208]: Merit Rating
+            - combobox [ref=f1e209] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "Super Bonus"
+              - option "Bonus 1"
+              - option "Bonus 2"
+              - option "Bonus 3"
+              - option "Bonus 4"
+              - option "Bonus 5"
+              - option "Bonus 6"
+              - option "Bonus 7"
+              - option "Bonus 8"
+              - option "Bonus 9"
+              - option "Malus 10"
+              - option "Malus 11"
+              - option "Malus 12"
+              - option "Malus 13"
+              - option "Malus 14"
+              - option "Malus 15"
+              - option "Malus 16"
+              - option "Malus 17"
+          - generic [ref=f1e211]:
+            - generic [ref=f1e212]: Damage Insurance
+            - combobox [ref=f1e213] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "No Coverage"
+              - option "Partial Coverage"
+              - option "Full Coverage"
+          - generic [ref=f1e215]:
+            - generic [ref=f1e216]: Optional Products
+            - paragraph [ref=f1e217]:
+              - generic [ref=f1e218] [cursor=pointer]:
+                - checkbox "Euro Protection" [ref=f1e219]
+                - text: Euro Protection
+              - generic [ref=f1e221] [cursor=pointer]:
+                - checkbox "Legal Defense Insurance" [ref=f1e222]
+                - text: Legal Defense Insurance
+          - generic [ref=f1e225]:
+            - generic [ref=f1e226]: Courtesy Car
+            - combobox [ref=f1e227] [cursor=pointer]:
+              - option "– please select –" [selected]
+              - option "No"
+              - option "Yes"
+          - generic [ref=f1e229]:
+            - button "« Prev" [ref=f1e231] [cursor=pointer]
+            - button "Next »" [ref=f1e232] [cursor=pointer]
+        - text:       
+    - generic [ref=f1e90]:
+      - navigation [ref=f1e91]:
+        - link "About" [ref=f1e92] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=f1e93] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=f1e94] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=f1e95] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=f1e96] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=f1e97]:
+        - link "" [ref=f1e98] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+        - link "" [ref=f1e100] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+        - link "" [ref=f1e102] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+      - generic [ref=f1e104]: Copyright 2021 by Tricentis GmbH. All rights reserved.

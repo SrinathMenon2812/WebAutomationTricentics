@@ -1,0 +1,135 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7]
+        - generic [ref=e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=e11]:
+        - link " Visit Support!" [ref=e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e14]
+        - button "" [ref=e15] [cursor=pointer]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - text: 
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Automobile" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Truck" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e25]:
+            - link "Motorcycle" [ref=e26] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e27]:
+            - link "Camper" [ref=e28] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e30] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - link "Home" [ref=e34] [cursor=pointer]:
+        - /url: index.php
+      - text: Motorcycle Insurance
+  - generic [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e39]:
+        - list:
+          - listitem [ref=e40]:
+            - link "Enter Vehicle Data 0" [ref=e125] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=e42]: "0"
+          - listitem [ref=e43]:
+            - link "Enter Insurant Data 0" [ref=e210] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=e45]: "0"
+          - listitem [ref=e46]:
+            - link "Enter Product Data 0" [ref=e242] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=e48]: "0"
+          - listitem [ref=e49]:
+            - link "Select Price Option 1" [ref=e50]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=e51]: "1"
+          - listitem [ref=e52]:
+            - link "Send Quote 4" [ref=e53] [cursor=pointer]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=e54]: "4"
+      - generic [ref=e56]:
+        - text:   
+        - generic [ref=e243]:
+          - generic:
+            - table [ref=e245]:
+              - rowgroup [ref=e246]:
+                - row [ref=e247]:
+                  - columnheader [ref=e248]
+                  - columnheader "Silver" [ref=e249]
+                  - columnheader "Gold" [ref=e250]
+                  - columnheader "Platinum" [ref=e251]
+                  - columnheader "Ultimate" [ref=e252]
+              - rowgroup [ref=e253]:
+                - row [ref=e254]:
+                  - cell "Price per Year ($)" [ref=e255]
+                  - cell "35.00" [ref=e256]
+                  - cell "104.00" [ref=e257]
+                  - cell "205.00" [ref=e258]
+                  - cell "391.00" [ref=e259]
+                - row [ref=e260]:
+                  - cell "Online Claim" [ref=e261]
+                  - cell "No" [ref=e262]
+                  - cell "Submit" [ref=e263]
+                  - cell "Submit" [ref=e264]
+                  - cell "Submit" [ref=e265]
+                - row [ref=e266]:
+                  - cell "Claims Discount (%)" [ref=e267]
+                  - cell "No" [ref=e268]
+                  - cell "2" [ref=e269]
+                  - cell "5" [ref=e270]
+                  - cell "10" [ref=e271]
+                - row [ref=e272]:
+                  - cell "Worldwide Cover" [ref=e273]
+                  - cell "No" [ref=e274]
+                  - cell "Limited" [ref=e275]
+                  - cell "Limited" [ref=e276]
+                  - cell "Unlimited" [ref=e277]
+              - rowgroup [ref=e278]:
+                - row [ref=e279]:
+                  - columnheader "Select Option" [ref=e280]
+                  - columnheader [ref=e281]:
+                    - radio [ref=e283]
+                    - radio [ref=e286]
+                    - radio [ref=e289]
+                    - radio [ref=e292]
+            - text:  
+        - text:     
+    - generic [ref=e98]:
+      - navigation [ref=e99]:
+        - link "About" [ref=e100] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=e101] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=e102] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=e103] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=e104] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=e105]:
+        - link "" [ref=e106] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+        - link "" [ref=e108] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+        - link "" [ref=e110] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+      - generic [ref=e112]: Copyright 2021 by Tricentis GmbH. All rights reserved.

@@ -1,0 +1,133 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - link [ref=f1e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=f1e7]
+        - generic [ref=f1e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=f1e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=f1e11]:
+        - link " Visit Support!" [ref=f1e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=f1e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=f1e14]
+        - button "" [ref=f1e15] [cursor=pointer]
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - text: 
+        - list [ref=f1e183]:
+          - listitem [ref=f1e184]:
+            - link "Automobile" [ref=f1e185] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e186]:
+            - link "Truck" [ref=f1e187] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e188]:
+            - link "Motorcycle" [ref=f1e189] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f1e190]:
+            - link "Camper" [ref=f1e191] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=f1e23] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=f1e24]:
+    - generic [ref=f1e26]:
+      - link "Home" [ref=f1e27] [cursor=pointer]:
+        - /url: index.php
+      - text: Automobile Insurance
+  - generic [ref=f1e28]:
+    - generic [ref=f1e31]:
+      - navigation [ref=f1e32]:
+        - list:
+          - listitem [ref=f1e34]:
+            - link "Enter Vehicle Data 0" [ref=f1e108] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=f1e36]: "0"
+          - listitem [ref=f1e37]:
+            - link "Enter Insurant Data 0" [ref=f1e194] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=f1e39]: "0"
+          - listitem [ref=f1e40]:
+            - link "Enter Product Data 0" [ref=f1e234] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=f1e42]: "0"
+          - listitem [ref=f1e43]:
+            - link "Select Price Option 0" [ref=f1e287] [cursor=pointer]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=f1e45]: "0"
+          - listitem [ref=f1e46]:
+            - link "Send Quote 0" [ref=f1e374]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=f1e48]: "0"
+      - generic [ref=f1e50]:
+        - text:     
+        - generic [ref=f1e310]:
+          - generic [ref=f1e311]:
+            - generic [ref=f1e312]: E-Mail
+            - textbox [ref=f1e313]: john.doe@example.com
+          - generic [ref=f1e315]:
+            - generic [ref=f1e316]: Phone
+            - textbox [ref=f1e317]: "1234567890"
+          - generic [ref=f1e318]:
+            - generic [ref=f1e319]: Username
+            - textbox [ref=f1e320]: johndoe123
+          - generic [ref=f1e322]:
+            - generic [ref=f1e323]: Password
+            - textbox [ref=f1e324]: Test@12345
+          - generic [ref=f1e326]:
+            - generic [ref=f1e327]: Confirm Password
+            - textbox [ref=f1e328]: Test@12345
+          - generic [ref=f1e330]:
+            - generic [ref=f1e331]: Comments
+            - textbox [ref=f1e332]: Automated E2E quote creation via Playwright MCP.
+          - generic [ref=f1e333]:
+            - button "« Prev" [ref=f1e335] [cursor=pointer]
+            - button "« Send »" [active] [ref=f1e336] [cursor=pointer]
+          - generic [ref=f1e338]:
+            - generic [ref=f1e340]:
+              - link "" [ref=f1e342] [cursor=pointer]:
+                - /url: index.php
+              - generic [ref=f1e345]: Main page
+            - generic [ref=f1e347]:
+              - link "" [ref=f1e349] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=f1e352]: New Automobile Insurance
+            - generic [ref=f1e354]:
+              - link "" [ref=f1e356] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=f1e359]: New Truck Insurance
+            - generic [ref=f1e361]:
+              - link "" [ref=f1e363] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=f1e366]: New Motorcycle Insurance
+            - generic [ref=f1e368]:
+              - link "" [ref=f1e370] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=f1e373]: New Camper Insurance
+    - generic [ref=f1e90]:
+      - navigation [ref=f1e91]:
+        - link "About" [ref=f1e92] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=f1e93] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=f1e94] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=f1e95] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=f1e96] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=f1e97]:
+        - link "" [ref=f1e98] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+        - link "" [ref=f1e100] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+        - link "" [ref=f1e102] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+      - generic [ref=f1e104]: Copyright 2021 by Tricentis GmbH. All rights reserved.

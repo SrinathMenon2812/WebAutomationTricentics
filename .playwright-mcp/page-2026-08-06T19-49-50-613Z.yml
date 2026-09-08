@@ -1,0 +1,128 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=e7]
+        - generic [ref=e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=e11]:
+        - link " Visit Support!" [ref=e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=e14]
+        - button "" [ref=e15] [cursor=pointer]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - text: 
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Automobile" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Truck" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e25]:
+            - link "Motorcycle" [ref=e26] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e27]:
+            - link "Camper" [ref=e28] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=e30] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - link "Home" [ref=e34] [cursor=pointer]:
+        - /url: index.php
+      - text: Motorcycle Insurance
+  - generic [ref=e35]:
+    - generic [ref=e38]:
+      - navigation [ref=e39]:
+        - list:
+          - listitem [ref=e40]:
+            - link "Enter Vehicle Data 0" [ref=e125] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=e42]: "0"
+          - listitem [ref=e43]:
+            - link "Enter Insurant Data 0" [ref=e210] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=e45]: "0"
+          - listitem [ref=e46]:
+            - link "Enter Product Data 0" [ref=e242]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=e48]: "0"
+          - listitem [ref=e49]:
+            - link "Select Price Option 1" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=e51]: "1"
+          - listitem [ref=e52]:
+            - link "Send Quote 4" [ref=e53] [cursor=pointer]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=e54]: "4"
+      - generic [ref=e56]:
+        - text:  
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - generic [ref=e213]: Start Date
+            - textbox "MM/DD/YYYY" [ref=e214]: 12/20/2026
+            - button "" [ref=e215] [cursor=pointer]
+          - generic [ref=e218]:
+            - generic [ref=e219]: Insurance Sum [$]
+            - combobox [ref=e220] [cursor=pointer]:
+              - option "– please select –"
+              - option "3.000.000,00"
+              - option "5.000.000,00"
+              - option "7.000.000,00"
+              - option "10.000.000,00" [selected]
+              - option "15.000.000,00"
+              - option "20.000.000,00"
+              - option "25.000.000,00"
+              - option "30.000.000,00"
+              - option "35.000.000,00"
+          - generic [ref=e222]:
+            - generic [ref=e223]: Damage Insurance
+            - combobox [ref=e224] [cursor=pointer]:
+              - option "– please select –"
+              - option "No Coverage"
+              - option "Partial Coverage"
+              - option "Full Coverage" [selected]
+          - generic [ref=e226]:
+            - generic [ref=e227]: Optional Products
+            - paragraph [ref=e228]:
+              - generic [ref=e229] [cursor=pointer]:
+                - checkbox "Euro Protection" [checked] [active] [ref=e230]
+                - text: Euro Protection
+              - generic [ref=e232] [cursor=pointer]:
+                - checkbox "Legal Defense Insurance" [ref=e233]
+                - text: Legal Defense Insurance
+          - generic [ref=e236]:
+            - button "« Prev" [ref=e238] [cursor=pointer]
+            - button "Next »" [ref=e239] [cursor=pointer]
+        - text:       
+    - generic [ref=e98]:
+      - navigation [ref=e99]:
+        - link "About" [ref=e100] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=e101] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=e102] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=e103] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=e104] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=e105]:
+        - link "" [ref=e106] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+        - link "" [ref=e108] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+        - link "" [ref=e110] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+      - generic [ref=e112]: Copyright 2021 by Tricentis GmbH. All rights reserved.

@@ -1,0 +1,144 @@
+- generic [ref=f11e2]:
+  - banner [ref=f11e3]:
+    - generic [ref=f11e5]:
+      - link [ref=f11e6] [cursor=pointer]:
+        - /url: index.php
+        - img "Tricentis Logo" [ref=f11e7]
+        - generic [ref=f11e8]:
+          - heading "Vehicle Insurance Application" [level=1] [ref=f11e9]
+          - text: This is a sample application, Version 1.0.1
+      - generic [ref=f11e11]:
+        - link " Visit Support!" [ref=f11e12] [cursor=pointer]:
+          - /url: https://support.tricentis.com
+          - generic [ref=f11e13]: 
+          - text: Visit Support!
+        - textbox "Search Support..." [ref=f11e14]
+        - button "" [ref=f11e15] [cursor=pointer]
+    - generic [ref=f11e18]:
+      - generic [ref=f11e19]:
+        - text: 
+        - list [ref=f11e20]:
+          - listitem [ref=f11e21]:
+            - link "Automobile" [ref=f11e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f11e23]:
+            - link "Truck" [ref=f11e24] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f11e25]:
+            - link "Motorcycle" [ref=f11e26] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f11e27]:
+            - link "Camper" [ref=f11e28] [cursor=pointer]:
+              - /url: "#"
+      - link "Request Demo" [ref=f11e30] [cursor=pointer]:
+        - /url: http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+  - main [ref=f11e31]:
+    - generic [ref=f11e33]:
+      - link "Home" [ref=f11e34] [cursor=pointer]:
+        - /url: index.php
+      - text: Truck Insurance
+  - generic [ref=f11e35]:
+    - generic [ref=f11e38]:
+      - navigation [ref=f11e39]:
+        - list:
+          - listitem [ref=f11e40]:
+            - link "Enter Vehicle Data 0" [ref=f11e248] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Vehicle Data
+              - generic [ref=f11e42]: "0"
+          - listitem [ref=f11e43]:
+            - link "Enter Insurant Data 0" [ref=f11e199] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Insurant Data
+              - generic [ref=f11e45]: "0"
+          - listitem [ref=f11e46]:
+            - link "Enter Product Data 0" [ref=f11e230] [cursor=pointer]:
+              - /url: "#"
+              - text: Enter Product Data
+              - generic [ref=f11e48]: "0"
+          - listitem [ref=f11e49]:
+            - link "Select Price Option 0" [ref=f11e302]:
+              - /url: "#"
+              - text: Select Price Option
+              - generic [ref=f11e51]: "0"
+          - listitem [ref=f11e52]:
+            - link "Send Quote 4" [ref=f11e53] [cursor=pointer]:
+              - /url: "#"
+              - text: Send Quote
+              - generic [ref=f11e54]: "4"
+      - generic [ref=f11e56]:
+        - text:   
+        - generic [ref=f11e303]:
+          - table [ref=f11e252]:
+            - rowgroup [ref=f11e253]:
+              - row [ref=f11e254]:
+                - columnheader [ref=f11e255]
+                - columnheader "Silver" [ref=f11e256]
+                - columnheader "Gold" [ref=f11e257]
+                - columnheader "Platinum" [ref=f11e258]
+                - columnheader "Ultimate" [ref=f11e259]
+            - rowgroup [ref=f11e260]:
+              - row [ref=f11e261]:
+                - cell "Price per Year ($)" [ref=f11e262]
+                - cell "279.00" [ref=f11e263]
+                - cell "823.00" [ref=f11e264]
+                - cell "1,615.00" [ref=f11e265]
+                - cell "3,078.00" [ref=f11e266]
+              - row [ref=f11e267]:
+                - cell "Online Claim" [ref=f11e268]
+                - cell "No" [ref=f11e269]
+                - cell "Submit" [ref=f11e270]
+                - cell "Submit" [ref=f11e271]
+                - cell "Submit" [ref=f11e272]
+              - row [ref=f11e273]:
+                - cell "Claims Discount (%)" [ref=f11e274]
+                - cell "No" [ref=f11e275]
+                - cell "2" [ref=f11e276]
+                - cell "5" [ref=f11e277]
+                - cell "10" [ref=f11e278]
+              - row [ref=f11e279]:
+                - cell "Worldwide Cover" [ref=f11e280]
+                - cell "No" [ref=f11e281]
+                - cell "Limited" [ref=f11e282]
+                - cell "Limited" [ref=f11e283]
+                - cell "Unlimited" [ref=f11e284]
+            - rowgroup [ref=f11e285]:
+              - row [ref=f11e286]:
+                - columnheader "Select Option" [ref=f11e287]
+                - columnheader [ref=f11e288]:
+                  - radio [ref=f11e290]
+                  - radio [ref=f11e293]
+                  - radio [checked] [active] [ref=f11e296]
+                  - radio [ref=f11e299]
+          - generic [ref=f11e304]:
+            - generic [ref=f11e306]:
+              - generic [ref=f11e308]:
+                - generic "View Quote" [ref=f11e310]: 
+                - generic [ref=f11e313]: View Quote
+              - generic [ref=f11e315]:
+                - generic "Download Quote" [ref=f11e317]: 
+                - generic [ref=f11e320]: Download Quote
+            - generic [ref=f11e321]:
+              - button "« Prev" [ref=f11e322] [cursor=pointer]
+              - button "Next »" [ref=f11e323] [cursor=pointer]
+        - text:     
+    - generic [ref=f11e105]:
+      - navigation [ref=f11e106]:
+        - link "About" [ref=f11e107] [cursor=pointer]:
+          - /url: http://www.tricentis.com/about
+        - link "Products" [ref=f11e108] [cursor=pointer]:
+          - /url: http://www.tricentis.com/tricentis-tosca-testsuite
+        - link "Events & Webinars" [ref=f11e109] [cursor=pointer]:
+          - /url: http://www.tricentis.com/events-webinars
+        - link "Resources" [ref=f11e110] [cursor=pointer]:
+          - /url: http://www.tricentis.com/resources
+        - link "Services" [ref=f11e111] [cursor=pointer]:
+          - /url: http://www.tricentis.com/services
+      - generic [ref=f11e112]:
+        - link "" [ref=f11e113] [cursor=pointer]:
+          - /url: https://www.facebook.com/TRICENTIS
+        - link "" [ref=f11e115] [cursor=pointer]:
+          - /url: https://twitter.com/Tricentis
+        - link "" [ref=f11e117] [cursor=pointer]:
+          - /url: https://plus.google.com/108151335013813449490/posts
+      - generic [ref=f11e119]: Copyright 2021 by Tricentis GmbH. All rights reserved.
