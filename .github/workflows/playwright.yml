@@ -36,9 +36,9 @@ jobs:
               [[ "$id" =~ ^[0-9]+$ ]] || { echo "Invalid test case id: $id"; exit 1; }
               ARGS+=("TC ${id}\\.spec\\.ts")
             done
-            npx playwright test "${ARGS[@]}" --reporter=list,json,html
+            npx playwright test "${ARGS[@]}" --project=chromium --reporter=list,json,html
           else
-            npx playwright test --reporter=list,json,html
+            npx playwright test --project=chromium --reporter=list,json,html
           fi
       - uses: actions/upload-artifact@v4
         if: always()
