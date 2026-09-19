@@ -27,7 +27,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://sampleapp.tricentis.com/101/',
-    headless: false,
+    headless: !!process.env.CI,     // headless on GitHub, headed on your machine
     /* Always collect a trace for each test run so it can be viewed in Trace Viewer. */
     trace: 'on',
     screenshot: 'only-on-failure',
